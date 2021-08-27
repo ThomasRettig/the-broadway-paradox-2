@@ -1,4 +1,4 @@
 # note
-A demo website. Content is written by Matthew Butterick under fair use, and is adapted from MB XS newsletter — https://tinyletter.com/mb
+A demo website which is an improved version of the original site https://github.com/ThomasRettig/the-broadway-paradox. Content is adapted from Matthew Butterick's newsletter — https://tinyletter.com/mb
 
-Fonts used are Retina and Icebox Magnet from Frere-Jones Type and Occupant Fonts respectively. 
+Typefaces used are _Lektorat Display_ (Typetogether) and _Brando_ (Bold Monday).
