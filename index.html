@@ -49,14 +49,20 @@
 
             button {
                 cursor: pointer;
-                border: none;
-                padding-left: 0px;
+                border: 2px solid var(--text-color);
+                padding: 10px;
                 border-radius: 10px;
-                opacity: 50%;
-                font-family: var(--text-font);
-                background: none;
-                letter-spacing: 0.3px;
-                color: var(--text-color);
+                opacity: 70%;
+                font-family: emoji;
+                color: var(--background-color);
+                position: fixed;
+                bottom: 15px;
+                right: 15px;
+                background: var(--background-color);
+            }
+            
+            button:hover {
+                opacity: 100%;
             }
 
             h1 {
@@ -131,12 +137,12 @@
         </script>
     </head>
     <body>
-        <button id="theme-switcher">Toggle Dark Mode</button>
+        <button id="theme-switcher">🌑</button>
         <!--Article-->
         <article>
             <h1>The Broadway Paradox</h1>
             <p class="meta">
-                Written by Matthew Butterick, <a href="https://github.com/ThomasRettig/the-broadway-paradox-2" style="color:var(--text-color);">Edit on Github</a>
+                Written by Matthew Butterick — <a href="https://github.com/ThomasRettig/the-broadway-paradox-2" style="color:var(--text-color);">view on Github</a>
             </p>
             <p>About 12 years ago, despite living in Los Angeles, I decided to start seeing more theater in New York City. (Yes, there is also theater in LA; no, it &rsquo;s not the same.) Up until then, I had seen NYC theater occasionally and enjoyed it. Why not see it more often, and enjoy it more often?</p>
             <p>Or so I reasoned. The reality was different.</p>
