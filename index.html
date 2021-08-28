@@ -26,6 +26,8 @@
                 --text-color: #3F3F3F;
                 --text-font: Brando;
                 --accent-font: Lektorat Display Var;
+                --button-background: url(https://twemoji.maxcdn.com/2/svg/1f315.svg);
+                
             }
 
             ::selection {
@@ -36,6 +38,7 @@
             [data-theme="dark"] {
                 --background-color: #3F3F3F;
                 --text-color: #ddd;
+                --button-background: url(https://twemoji.maxcdn.com/2/svg/1f311.svg);
             }
 
             body {
@@ -49,8 +52,8 @@
             
             button {
                 cursor: pointer;
-                padding: 10px;
-                border-radius: 10px;
+                padding: 12px;
+                border-radius: 50%;
                 opacity: 70%;
                 font-family: emoji;
                 color: var(--background-color);
@@ -58,7 +61,8 @@
                 bottom: 25px;
                 right: 25px;
                 background: var(--text-color);
-                border: none;
+                border: 2px solid var(--text-color);
+                background-image: var(--button-background);
             }
             
             button:hover {
@@ -80,7 +84,9 @@
             .meta {
                 opacity: 50%;
                 font-family: var(--text-font);
-                margin-block-start: 10px; }
+                margin-block-start: 10px; 
+                line-height: 100%;
+            }
 
             /*article bylines*/
             /*media breakpoints*/
