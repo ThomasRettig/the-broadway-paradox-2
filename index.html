@@ -13,18 +13,21 @@
                 --text-font: Brando;
                 --accent-font: Lektorat Display Var;
                 --button-background: url(https://twemoji.maxcdn.com/2/svg/1f311.svg); /*new moon (dark)*/
+                --heading-variation: "wght" 700;
                 
-            }
-
-            ::selection {
-                background: var(--text-color);
-                color: var(--background-color);
             }
 
             [data-theme="dark"] {
                 --background-color: #3F3F3F;
                 --text-color: #ddd;
                 --button-background: url(https://twemoji.maxcdn.com/2/svg/1f315.svg); /*full moon (light)*/
+                --heading-variation: "wght" 550;
+            }
+            
+            
+            ::selection {
+                background: var(--text-color);
+                color: var(--background-color);
             }
 
             body {
@@ -57,9 +60,10 @@
 
             h1 {
                 font-family: var(--accent-font);
-                font-variation-settings: "wght" 700;
+                font-variation-settings: var(--heading-variation);
                 margin-block-end: 0px; margin-block-start: 10px; font-weight: normal;
                 letter-spacing: -0.5px;
+                transition: 0.5s;
             }
 
             p {
